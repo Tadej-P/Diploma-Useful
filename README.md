@@ -1,4 +1,4 @@
 # Diploma-Useful
 useful stuff from my diploma
 
-test
+<b>test<b>
