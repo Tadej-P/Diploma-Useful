@@ -6,7 +6,7 @@ Tukaj so naloženi bolj ali manj uporabni deli iz moje diplomske naloge <b>Navid
 <hr>
 leap.avi je filmček, ki prikazuje uporabo senzorja Leap Motion za interakcijo z molekulo vode.
 <hr>
-connect.cs je ena prih skript, ki sem jih napisal za potrebe diplomske naloge.
+connect.cs je ena prvih skript, ki sem jih napisal za potrebe diplomske naloge.
 
 V glavnem potreboval sem nekaj kar bo predstavljalo vezi med molekulami, zato sem najprej poskušal najti nekaj uporabnega na internetu, vendar nisem našel nič ustreznega, sem pa dobil idejo na enem izmed Unity3D forumov.
 
