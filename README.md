@@ -13,7 +13,10 @@ V glavnem potreboval sem nekaj kar bo predstavljalo vezi med molekulami, zato se
 Torej kako deluje skripta connect.cs.
 
 Želimo torej narediti povezavo med dvema objektoma, ta objekta sedita v 3D prostoru, ki je določen z globalnim koordinatnim sistemom. Objekta sta določena z dvema točkama oz. z dvema vektorjema, imata tudi svoj lokalni koordinatni sistem. Vektor kaže na središče oz. težišče objekta.
+
 -Torej imamo 2 vektorja start, end in neko širino width, ki jo uporabimo za določanje širine objekta ki bo služil za vez, v našem primeru je to valj.
-najprej izračunamo razliko vektorjev end in start, s tem dobimo vektor offset. S pomočjo tega vektorja določimo velikost valja "scale", ter njegovo pozicijo.
+
+Najprej izračunamo razliko vektorjev end in start, s tem dobimo vektor offset. S pomočjo tega vektorja določimo velikost valja "scale", ter njegovo pozicijo.
+
 Nato kreiramo valj, mu izklopimo "collider", ter mu določimo pozicijo, velikost in usmerjenost. Pravino usmerjeost dosežemo z rotacijo lokalnega koordinatnega sistema valja glede na globalni koordinatni sistem. To je mogoče ker je koordinatni sistem definiran z vektorji up, right, forvard (y, x, z), torej če izenačimo vektor up z vektorjem offset, rotiramo cel koordinatni sistem.
 
